@@ -1,17 +1,23 @@
 {
-  "name": "15-HotRestaurant",
+  "name": "15-hotrestaurant",
   "version": "1.0.0",
-  "description": "* Description: Basic app demonstrating Node and Express with vanilla javascript. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list.\r * Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>",
+  "description": "* Description: Basic app demonstrating Node and Express with vanilla javascript. Overall purpose is to help schedule reservation requests. Restaurant has just 5 tables available. First five requests get a reservation, every request after that is sent to the waiting list. * Live Demo: <https://hot-restaurant-fsf.herokuapp.com/>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nanosar90/hotRestaurant.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nanosar90/hotRestaurant/issues"
+  },
+  "homepage": "https://github.com/nanosar90/hotRestaurant#readme",
   "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.7",
-    "tailwindcss": "^2.1.1"
+    "express": "^4.17.1"
   }
 }
