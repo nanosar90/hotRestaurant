@@ -3,6 +3,7 @@ const express = require('express');
 const path = require('path');
 const custReserve = {
 
+
     custName: 'name',
     custPhone: 'phone',
     custEmail: 'email',
@@ -13,6 +14,13 @@ const custReserve = {
 
 
 
+    custName: 'name',
+    custPhone: 'phone',
+    custEmail: 'email',
+    custID: 'ID',
+    custTable: 'table'
+
+}
 // Sets up the Express App
 
 const app = express();

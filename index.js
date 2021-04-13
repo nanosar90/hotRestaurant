@@ -1,3 +1,4 @@
+
 const displayResult = function(custReserve) {
     if (this.custTable < 5){
     
@@ -18,3 +19,4 @@ const displayResult = function(custReserve) {
     
         }
     }
+
