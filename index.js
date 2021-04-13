@@ -1,9 +1,9 @@
 const custReserve = {
 
-    custName:
-    custPhone:
-    custEmail:
-    custID:
-    custTable:
+    custName: 'name',
+    custPhone: 'phone',
+    custEmail: 'email',
+    custID: 'ID',
+    custTable: 'table'
 
 }
